@@ -125,9 +125,14 @@ header {
 /* dishes css page start */
 .container-3 {
     /* max-width: 1100px; */
-    margin-left: 60px ;
+    margin: 0 60px;
     padding: 20px 0;
     margin-top: 40px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
    
 }
 
@@ -135,6 +140,8 @@ header {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    position: relative;
+
     /* grid-template-columns: repeat(auto-fit, minmax(150px 1fr)); */
     /* grid-template-rows: repeat(4, 1fr); */
 }
@@ -142,6 +149,32 @@ header {
     width: 300px;
     height: 250px;
     border-radius: 5%;
+}
+.dish {
+    position: inherit;
+   text-align: center;
+   margin-left: 80px;
+   flex-wrap: wrap;
+}
+
+.dish ul {
+    list-style: none;
+}
+
+.dish h3 {
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: rgba(122, 4, 4, 0.721);
+}
+.dish p {
+    color: blue;
+}
+
+.container-3 h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color:  rgba(122, 4, 4, 0.721);
 }
 
 /* dishes css page end */
